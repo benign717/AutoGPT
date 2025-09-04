@@ -1,0 +1,4 @@
+autogpt
+openai
+requests
+docker
