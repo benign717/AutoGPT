@@ -1,4 +1,3 @@
 autogpt
 openai
 requests
-docker
