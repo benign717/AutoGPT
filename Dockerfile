@@ -1,6 +1,5 @@
 FROM python:3.11-slim
 WORKDIR /app
-COPY requirements.txt /app/requirements.txt
-RUN pip install -U pip && pip install -r /app/requirements.txt
-COPY . /app/
+COPY . /app
+RUN ls -la /app && pip install -U pip && pip install -r /app/requirements.txt
 CMD ["python","-m","autogpt"]
